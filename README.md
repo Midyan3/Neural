@@ -20,7 +20,7 @@ I've always wanted to build my very own neural network from scratch but I never 
 - Basic knowledge of C++ and neural network concepts
 
 **Steps:**
-1. Clone this repository to your local machine using:
+1. Clone this repository to your local machine
 2. Navigate to the project directory.
 3. Compile the source files using your preferred C++ compiler or development environment (e.g., Visual Studio, g++, etc.).
 4. After successful compilation, you can run the program.
