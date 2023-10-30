@@ -23,7 +23,7 @@ int main() {
     std::cout << "Testing trained network:" << std::endl;
     for(const auto& test : trainingData) {
         std::vector<double> input = test.first;
-        std::vector<double> predicted = network.predict(input); // Assuming 'forward' function does the forward pass and returns output
+        std::vector<double> predicted = network.predict(input); // Makes a prediction 
         double actual = test.second[0];
 
         // Round the predicted value to get a clear 0 or 1 classification
